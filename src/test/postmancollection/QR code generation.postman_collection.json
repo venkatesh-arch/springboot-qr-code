@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "ae476d4b-c086-4332-937c-670880325ab8",
+		"name": "QR code generation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33067932"
+	},
+	"item": [
+		{
+			"name": "localhost:9081/qr/qrcode/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9081/qr/qrcode/",
+					"host": [
+						"localhost"
+					],
+					"port": "9081",
+					"path": [
+						"qr",
+						"qrcode",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
